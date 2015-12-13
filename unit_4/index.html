@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cosmic Dreams</title>
+	<!-- @import url(https://fonts.googleapis.com/css?family=Roboto+Mono); -->
+	<link href='https://fonts.googleapis.com/css?family=Average|Courgette' 
+		rel="stylesheet" type="text/css">
+	<style type="text/css">
+		h1 {
+		  font: 400 36px/1.0 'Courgette', Helvetica, sans-serif;
+		}	 
+		p {
+		  font: 400 14px/1.5 'Average', Times, serif;
+		}
+		#page {
+			width: 900px;
+		}
+		.table-center th, .table-center td {    
+		    text-align: center;
+			width: 300;
+			padding: 3px 10px;
+			background-color: #efefef; 
+			/*border: 1px solid #0088dd;*/
+		}
+		table.table-fixed {
+			width: 900px;
+			table-layout: fixed;
+			/*border: 1px solid #0088dd;*/
+			empty-cells: show;		
+		}
+		#table-main td {
+			width: 300px;
+			vertical-align: top;
+			padding-left: 10px;
+			padding-right: 10px;
+			/*border: 2px ;*/
+			/*border: 1px solid #0088dd;*/
+		}
+		#table-footer  td {    
+	    font-style: oblique;
+		background-color: #efefef; 
+		width: 300;
+		padding: 6px 20px 2px 20px;
+		}
+		.spacer tr {
+			height: 3px;
+		}
+		#searchrow tr {
+			padding-bottom: 40px;
+		}
+		nav {
+		    border-spacing: 0px;
+		    border-collapse: collapse;
+			width: 900px;
+		    list-style: none;
+		    margin: 0;
+		    padding: 0;
+		    text-align: center;
+		}
+		nav ul {
+			margin: 0px;
+			padding: 1px 10px 1px 10px;
+		}
+		nav li {
+			display: inline;
+		}
+		nav li a {
+		    display: inline-block;
+		    padding: 10px;
+		}
+		input.registerbuttons {
+    		font-size: 4em;
+    		width: 200px;
+    		padding: 20px;
+		}
+		img.align-left {
+			float: left;
+			margin-right: 10px;
+		}
+		img.small {
+			width: 100px;
+			height: 100ox;
+		}
+		.centered {
+			text-align: center;
+		}
+		#slogan {
+			font-style: oblique;
+		}
+		#searchbox {
+			width: 600px;
+			padding: 0px 5px;
+			font-size: 4em;
+		}
+		#dropdwnlabel {
+			font-weight: bold;
+			font-style: oblique;
+		}
+		#selectgenre {
+			width: 150px;
+		}
+		#register {}
+	</style>
+</head>
+<body>
+	<div id="page" >
+		<header>
+			<table class="table table-center" >
+				<tr>
+					<td>
+						<div id-"logosection">
+							<h4>Cosmic Dreams</h4>
+							<img src="images/logo.png" 
+							     alt="Logo: image symbolizing reading at Cosmic Dreams" 
+							     title="Read the Stuff of Cosmic Dreams!" />
+							<h5 id="slogan">We Sell the Stuff of Imagination!</h5>
+						</div>
+					</td>
+					<td>
+						<div id="register" >
+							<form action="#">
+								<input type="submit" name="signin" value="Sign in" 
+									class="registerbuttons" />
+							</form>
+							<p style="text-align:center"; id="orlink";  >or: </p>
+							<form action="#">
+								<input type="submit" name="join" value="Join" class="registerbuttons" />
+							</form>
+						</div>
+					</td>
+					<td >
+						<div id-"shoppingcart">
+							<form action="#">
+								<input type="submit" name="shoppingcart" value="View Shopping Cart" 
+								      class="registerbuttons" />
+							</form>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td colspan=3>
+						<nav>
+							<ul>
+								<li> <a href="" >Home</a></li>
+								<li> <a href="" >Books</a></li>
+								<li> <a href="" >Audio-Books and Videos</a></li>
+								<li> <a href="" >Reviews</a></li>
+								<li> <a href="" >Events</a></li>
+								<li> <a href="" >Customer Support</a></li>
+								<li> <a href="" >About Cosmic Dreams</a></li>
+							</ul>
+						</nav>
+					</td>
+				</tr>
+				<tr id="searchrow">
+					<td colspan=3>
+						<form action="#">
+								<input type="search" name="search" id="searchbox"
+								       placeholder ="Enter search terms here..." />
+								<input type="submit" value="Search" class="registerbuttons" />
+						</form>
+					</td>
+				</tr>
+			</table>
+			<br />
+		</header>
+		<section>
+			<table id="table-main" class="table-fixed">
+				<tr>
+					<td>
+						<div class = "centered">
+							<form action ="">
+								<label id="dropdwnlabel">&nbsp;&nbsp;&nbsp;Select your SF genre <br />
+								</label>
+								<select name="genre" id="selectgenre">
+									<option>General science fiction</option>
+									<option>Technology-based speculative fiction</option>
+									<option>Science fantasy and space opera</option>
+									<option>Apocalyptic/post-apocalyptic stories</option>
+									<option>Cyberpunk</option>
+									<option>Sociological science fiction</option>
+								</select>
+							</form>
+						</div>
+						<div id="recommendation">
+							<h1 class = "centered">The Week's Feature for this Genre!</h1>
+							<p>
+								<img src="images/compass-rose-1444702-640x480.jpg" alt="Recommendation" 
+								    class="align-left small">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+						</div>
+					</td>
+					<td>
+						<div id="review">
+							<h1 class = "centered">Our Weekly Review</h1>
+							<p><img src="images/dices-4-1169521-640x512.jpg" alt="Review" 
+								    class="align-left small">
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+							</p>
+							<p>
+								Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</p>
+						</div>
+					</td>
+					<td>
+						<h1 class = "centered">Cosmic Dreams: The Mission</h1>
+						<p>Our aim is to provide the world's best science fiction, drawing from an international range of authors - about ten percent of our current 
+						stock is in their original non-English languages. Choose from:</p>
+						<ul>
+							<li>"Hard" science fiction, or technology-based speculative fiction</li>
+							<li>Science fantasy and space opera</li>
+							<li>Apocalyptic/post-apocalyptic stories</li>
+						    <li>Cyberpunk</li>
+						    <li>Sociological science fiction</li>
+							<li>Audio books and videos (many formats)</li>
+						</ul>
+						<p>We review science-fiction-related events in the theatrical and artistic worlds as well as books. Reviews are authored by our editorial staff, guest reviewers, and customers. Our mission: To provide an exceptional &ldquo;conversation lounge&rdquo; for our galaxy's inquiring minds!</p>
+					</td>
+				</tr>
+			</table>
+		</section>
+		<footer>
+			<table id="table-footer" class="centered">
+				<tr>
+					<td>Address: 1001 Cosmic Loop, Galaxia, XX 00000 USA &nbsp; &nbsp; &nbsp;
+					    Tel. 1-000-000-xxxx</td>
+					<td>Email: <a href="mailto:cosmicdreaming@yahoo.com?subject=Information%20Request">CosmicDreaming@yahoo.com</td>
+				</tr>
+			</table>
+		</footer>
+	</div>
+</body>
+</html>
