@@ -1,0 +1,159 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+#logoName {
+	font: 400 18px/1.0 'Courgette', Helvetica, sans-serif;
+}
+h1 {
+  font: 400 36px/1.0 'Courgette', Helvetica, sans-serif;
+}	 
+p, ul {
+  font: 400 14px/1.5 'Average', Times, serif;
+}
+p {
+	margin-top: 0em;
+	margin-bottom: 1em;
+}
+.italic{ 
+  font-style: italic; 
+}
+#page {
+	margin: 0 auto;
+	background-color: #FFE2B8;
+	border: 1px black solid;
+}
+header {
+	border-bottom: 1px black solid;
+	padding: 1px 4px 0px 4px;
+}
+#headerFirstRow {
+	padding: 50px auto;
+	margin: 5px;
+}
+#logosection {
+	width: 33.33%;
+	padding: 10px auto;
+	float: left;
+	background-color: black;
+	color: gold;
+}
+#register {
+	width: 33.33%;
+	margin: 1em 0;
+	float: left;
+}
+#shoppingcart {
+	width: 33.33%;
+	margin: 1em 0;
+	float: left;
+}
+#orlink {
+	text-align: center;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+input.registerButtons {
+	font-size: 1em;
+	width: 200px;
+	padding: 20px;
+}
+a:hover {
+	color:red;
+	font-weight: bold;
+}
+nav {
+	background-color: cornsilk;	
+    border-spacing: 0px;
+    border-collapse: collapse;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+nav ul {
+	margin: 2px 4px;
+	padding: 2px;
+}
+nav li {
+	display: inline;
+}
+nav li a {
+    display: inline-block;
+    padding: 10px;
+}
+ul {
+	margin-left: 20px;
+}
+#searchRow {
+	padding: 10px 3px 0px 3px;
+}
+#searchBox {
+	width: 66%;
+	padding: 0px 6px;
+	margin: 2px 0;
+	font-size: 1em;
+}
+#mainSection {
+	padding: 1px 4px 0px 4px;
+}
+.continuationLinks {
+	text-decoration: none;
+	padding: 2px 4px 2px 2px;
+	font-style: italic;
+}
+.articleFormat {
+	float: left;
+	width: 33.33%;
+	padding: 15px;	
+}
+#selectGenre {
+	margin: 1px 0 15px 0;
+}
+#mission {
+	background-color: Gainsboro;
+}
+img.align-left {
+	float: left;
+	margin-right: 10px;
+	margin-top: 5px;
+}
+img.small {
+	width: 100px;
+	height: 100px;
+}
+#foot {    
+	font-style: oblique;
+	padding: 4px 30px 4px 30px;
+	border-top: 1px black solid;
+}
+#foot-element {
+	padding: 3px 0px 3px 0px;
+	float: left;
+}
+#address {
+	padding: 5px 10px;
+	float: left;
+}	
+#email {
+	padding: 5px 10px 5px 20px;
+	float: left;
+}
+.centered {
+	text-align: center;
+}
+#slogan {
+	font-style: oblique;
+}
+#dropdwnLabel {
+	font-weight: bold;
+	font-style: oblique;
+}
+#selectGenre {
+	width: 150px;
+}
+.clearfix:after {
+	content: ".";
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	height: 0;
+	clear: both;
+}
