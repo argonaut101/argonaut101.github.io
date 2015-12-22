@@ -56,10 +56,20 @@ input.registerButtons {
 	width: 150px;
 	padding: 20px;
 }
+/*#cartForm {
+	padding: 60px auto;
+}*/
 a:hover {
 	color:red;
 	font-weight: bold;
 }
+/*#check {
+	display: none;
+}
+label {
+	font: 400 16px/1.0 'Average', Times, serif;
+	display: none;
+}*/
 nav {
 	background-color: cornsilk;	
     border-spacing: 0px;
@@ -165,7 +175,7 @@ img.small {
 		padding: 15px;
 	}
 }
-@media only screen and  (max-width: 510px) {
+@media only screen and (max-width: 510px) {
 	.articleFormat {
 		float: none;
 		width: 100.00%;
@@ -178,12 +188,15 @@ img.small {
 	}
 	#register {
 		width: 100.00%;
-		margin: 1em 0;
+		margin: 0.5em 0;
 		float: none;
 	}
 	#shoppingcart {
 		width: 100.00%;
-		margin: 1em 0;
+		margin: 0.5em 0;
 		float: none;
 	}
+	/*label {
+		display: block;
+	}*/
 }
