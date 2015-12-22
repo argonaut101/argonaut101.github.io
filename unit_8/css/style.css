@@ -20,6 +20,7 @@ p {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	/*min-width: 352px;*/
+	max-width: 1400px;
 }
 header {
 	border-bottom: 1px black solid;
