@@ -63,8 +63,12 @@ input.registerButtons {
 /*#cartForm {
 	padding: 60px auto;
 }*/
-a:active, a:hover {
+a:hover {
 	color:red;
+	font-weight: bold;
+}
+a:active {
+	color:green;
 	font-weight: bold;
 }
 /*#check {
