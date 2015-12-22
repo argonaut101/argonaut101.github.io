@@ -1,4 +1,8 @@
 * { margin:0; padding:0; box-sizing:border-box; }
+html {
+	max-width: 1280px;
+	margin: 0 auto;
+}
 #logoName {
 	font: 400 18px/1.0 'Courgette', Helvetica, sans-serif;
 }
@@ -20,7 +24,6 @@ p {
 	background-color: #FFE2B8;
 	border: 1px black solid;
 	/*min-width: 352px;*/
-	max-width: 1400px;
 }
 header {
 	border-bottom: 1px black solid;
