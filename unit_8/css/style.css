@@ -207,6 +207,9 @@ img.small {
 		margin: 0.5em 0;
 		float: none;
 	}
+	#foot {
+		text-align: left;
+	}
 	/*label {
 		display: block;
 	}*/
